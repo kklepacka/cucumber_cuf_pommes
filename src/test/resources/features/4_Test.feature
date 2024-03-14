@@ -2,6 +2,6 @@
 Feature: Test
 
 	Scenario: Test
-		Given That I have <CUF_1> apples
-		When I eat "1" apple
-		Then I should have <CUF_2> apples
+		Given That I have the expected number of apples retrieved from CUF1
+		When I eat 1 apple
+		Then I should have the number of apples retrieved from CUF2
