@@ -43,7 +43,7 @@ public class StepDefinitions {
     @Then("I should have the number of apples retrieved from CUF2")
     public void i_should_have_the_number_of_apples_retrieved_from_CUF2() throws ParameterException {
         // Retrieve the expected number of remaining apples from CUF2 for comparison
-        int expectedApples = ParameterService.INSTANCE.getInt("CUF_2");
+        int expectedApples = ParameterService.INSTANCE.getInt("CPG_CUF_CUF2");
         // Get the actual remaining apples from context
         int actualRemainingApples = context.getRemainingApples();
         // Assert that the remaining apples match the expected count from CUF2

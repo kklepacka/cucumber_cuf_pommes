@@ -15,7 +15,7 @@ public class SetupTeardown {
     public void setUp() {
         try {
             // Retrieve the number of apples from ParameterService and store it in the context
-            int initNumApples = ParameterService.INSTANCE.getInt("CUF_1");
+            int initNumApples = ParameterService.INSTANCE.getInt("CPG_CUF_CUF1");
             context.setInitNumApples(initNumApples);
         } catch (ParameterException e) {
             // Handle the exception, e.g., log the error or take appropriate action
