@@ -18,7 +18,7 @@ public class SetupTeardown {
             int initNumApples = ParameterService.INSTANCE.getInt("CPG_CUF_CUF1");
             context.setInitNumApples(initNumApples);
         } catch (ParameterException e) {
-            // Handle the exception, e.g., log the error or take appropriate action
+            // Handle the exception, e.g., log the error message
             System.out.println("ParameterException occurred: " + e.getMessage());
         }
     }

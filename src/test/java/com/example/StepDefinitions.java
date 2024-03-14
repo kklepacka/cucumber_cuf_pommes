@@ -14,7 +14,6 @@ import org.opentestfactory.util.ParameterService;
 public class StepDefinitions {
 
     private TestContext context;
-    private int remainingApples;
 
     public StepDefinitions(TestContext context) {
         this.context = context;
